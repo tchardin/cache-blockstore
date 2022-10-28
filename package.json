@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "An IPLD Blockstore on top of the browser CacheStorage API",
   "main": "dist/src/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "test": "aegir test",
     "build": "aegir build",
@@ -29,6 +33,11 @@
   "dependencies": {
     "blockstore-core": "^2.0.2",
     "err-code": "^3.0.1",
-    "interface-blockstore": "^3.0.1"
+    "interface-blockstore": "^3.0.1",
+    "multiformats": "^10.0.2"
+  },
+  "types": "dist/src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
   }
 }
