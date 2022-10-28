@@ -1,0 +1,23 @@
+{
+  "name": "cache-blockstore",
+  "version": "0.1.0",
+  "description": "An IPLD Blockstore on top of the browser CacheStorage API",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "aegir test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchardin/cache-blockstore.git"
+  },
+  "keywords": [
+    "IPFS",
+    "IPLD"
+  ],
+  "author": "tchardin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchardin/cache-blockstore/issues"
+  },
+  "homepage": "https://github.com/tchardin/cache-blockstore#readme"
+}
